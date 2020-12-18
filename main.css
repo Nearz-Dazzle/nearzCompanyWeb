@@ -1,0 +1,332 @@
+body {
+  margin: 0;
+  font-family: 'Open Sans';
+}
+header {
+  background-color: #FFFCFB;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.11999999731779099);
+  padding: 10px;
+}
+.app-logo {
+    margin-right: 5px;
+}
+.header-image {
+  display: flex;
+  align-items: center;
+}
+
+.intro-header {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.intro-header-right-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.intro-header-right-header {
+  /* font-family: Open Sans Hebrew; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  color: #4A4A4A;
+  margin-bottom: 30px;;
+}
+
+.intro-header-with {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 24px;
+  color: #BDBDBD;
+  margin-bottom: 20px;
+}
+
+.underline {
+  background: linear-gradient(270deg, #F25435 2.45%, rgba(242, 84, 53, 0) 101.29%);
+  margin-bottom: 20px;
+  height: 1px;
+  width: 100%;
+}
+
+.nearz-header-app-logo {
+  width: 130px;
+}
+
+.intro-header-app-name {
+  /* font-family: Open Sans Hebrew; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 56px;
+  line-height: 76px;
+  color: #4A4A4A;
+}
+
+.intro-header-description {
+  /* font-family: Open Sans; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 27px;
+  color: #4F4F4F;
+  margin: 20px 0px;
+}
+
+.choose-question {
+  color: rgba(74,74,74,1);
+  top: 0px;
+  left: 0px;
+  /* font-family: Open Sans; */
+  font-weight: Bold;
+  font-size: 32px;
+  opacity: 1;
+  text-align: center;
+  margin-top: 20px;
+  width: max-content;
+  margin: auto;
+}
+
+.app-name {
+  font-weight: bold;
+}
+
+
+.app-features {
+  display: flex;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  width: max-content;;
+  justify-content: space-around;
+  margin-right: 10px;
+}
+
+.nearz-app-button-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.nearz-app-button-container a{
+  width: 100%;
+  position: absolute;
+  height: 100%;
+}
+
+.nearz-header-app-button {
+  height: 40px;
+  width: 276px;
+  text-align: center;
+  margin:  0 auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.bullet {
+  width: 6px;
+  height: 6px;
+  background: rgba(221,79,46,1);
+}
+
+.bullet-text {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 27px;
+  color: #BDBDBD;
+  margin-left: 5px;
+}
+
+.app-features li{
+  width: 100px;
+}
+
+.more-salon-mid-banner {
+  background: linear-gradient(rgba(249,140,101,1), rgba(242,85,54,1));
+  height: 80px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.advantages-container {
+  margin: auto;
+  width: auto;
+  padding: 20px;
+}
+
+.advantage-header {
+  color: rgba(74,74,74,1);
+  font-weight: Bold;
+  font-size: 32px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.advantage-description {
+  font-weight: 'Regular';
+  font-size: 18px;
+  opacity: 1;
+}
+
+.how-nears-label {
+  color: rgba(74,74,74,1);
+  /* font-family: Open Sans; */
+  font-size: 48px;
+  text-align: center;
+  margin: 70px 0px;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.app-screenshot-container {
+  width: 100%;
+  background: linear-gradient(rgba(249,140,101,1), rgba(242,85,54,1));
+  text-emphasis: center;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.screenshot-text {
+  color: rgba(255,255,255,1);
+  /* font-family: Open Sans; */
+  font-weight: Bold;
+  font-size: 16px;
+  opacity: 1;
+  text-align: center;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  align-items: center;
+}
+
+.advantage-image {
+  height: 80px;
+}
+
+.advantages {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 60px;
+  flex-wrap: wrap;
+}
+
+.advantage-description-container {
+  width: auto;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.advantages:nth-child(odd) {
+  flex-wrap: wrap-reverse;
+}
+
+
+.advantages:first-child {
+  margin-top: 0px;
+}
+
+.screenshot-image {
+  height: 400px;
+  width: 200px;
+  margin-top: 20px;
+}
+
+.company-name {
+  /* TechWits IT Solutions Product */
+  /* font-family: Open Sans; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+  /* Text/Dark */
+  color: #4A4A4A;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.footer {
+  padding: 11px 20px;
+}
+
+.contact {
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+  /* Gray 4 */
+  color: #BDBDBD;
+  margin-bottom: 10px;
+}
+
+.contact_details {
+  font-size: 14px;
+  color: #4A4A4A;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 10px 0px;
+  display: flex;
+  align-self: center;
+}
+
+.contact_details a {
+  text-decoration: none;
+  color: #4A4A4A;
+  display: flex;
+  align-self: center;
+}
+/* +91-9411504223 */
+
+/* media */
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (min-width: 768px) {
+  .advantages {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 60px;
+  }
+  .nearz-app-button-container {
+    margin: inherit;
+  }
+  .advantage-description-container {
+    width: 50%;
+    text-align: center;
+  }
+
+  .advantages-container {
+    margin: auto;
+    width: 50%;
+  }
+  .app-screenshot-container {
+    display: flex;
+  }
+  .contact-container {
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+    align-items: center;
+  }
+  .footer {
+    display: flex;
+  }
+  .how-nears-label {
+    width: 50%;
+  }
+}
