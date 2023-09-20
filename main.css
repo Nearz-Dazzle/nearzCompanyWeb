@@ -2,17 +2,41 @@ body {
   margin: 0;
   font-family: 'Open Sans';
 }
+
 header {
   background-color: #FFFCFB;
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.11999999731779099);
   padding: 10px;
 }
+
 .app-logo {
     margin-right: 5px;
 }
+
 .header-image {
   display: flex;
   align-items: center;
+}
+
+.download-image-container {
+  position: absolute;
+  right: 40px;
+  width: 200px;
+  cursor: pointer;
+}
+
+.nearz-ios {
+  width: 200px;
+}
+
+.nearz-android {
+  width: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.hero-image {
+  display: none;
 }
 
 .intro-header {
@@ -290,11 +314,10 @@ header {
   display: flex;
   align-self: center;
 }
-/* +91-9411504223 */
+
 
 /* media */
 
-/* On screens that are 600px or less, set the background color to olive */
 @media screen and (min-width: 768px) {
   .advantages {
     display: flex;
@@ -328,5 +351,22 @@ header {
   }
   .how-nears-label {
     width: 50%;
+  }
+  .intro-header-right-content {
+    display: none;
+  }
+  .hero-image  {
+    background-image: url("./images/hero_banner.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    text-align: center;
+    height: 552px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
   }
 }
