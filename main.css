@@ -26,11 +26,8 @@ header {
   align-items: center;
 }
 
-.download-image-container {
-  position: absolute;
-  right: 10%;
-  width: 200px;
-  cursor: pointer;
+.download-image-container-desktop {
+  display: none;
 }
 
 .nearz-ios {
@@ -39,8 +36,13 @@ header {
 
 .nearz-android {
   width: 200px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.nearz-android-desktop {
+  width: 200px;
+  margin-left: 20px;
 }
 
 .hero-image {
@@ -180,9 +182,7 @@ header {
 
 .more-salon-mid-banner {
   background: linear-gradient(rgba(249,140,101,1), rgba(242,85,54,1));
-  height: 80px;
   color: white;
-  display: flex;
   justify-content: center;
   align-items: center;
   font-size: 24px;
@@ -376,5 +376,13 @@ header {
     align-items: center;
     justify-content: center;
     width: 100%;
+  }
+  .download-image-container-desktop {
+    cursor: pointer;
+    display: block;
+    .download-links {
+      display: flex;
+      justify-content: center;
+    }
   }
 }
