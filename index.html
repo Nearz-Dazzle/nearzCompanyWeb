@@ -20,7 +20,14 @@
          </div>     
       </header>
       <div class="intro-header">
-         <img />
+         <div class="hero-image">
+            <div class="download-image-container">
+               <img class="nearz-ios" src="./images/ios.png" onclick="iosReidrect()">
+               </img>
+               <img class="nearz-android" src="./images/android.png" onclick="androidRedirect()">
+               </img>
+            </div>
+         </div>
          <div class="intro-header-right-content">
             <div class="header-content-wrap">
             <div class="intro-header-right-header">Salon Appointments Made Easy</div>
@@ -33,12 +40,12 @@
                <span class="app-name">Nearz App</span>
             </div>
             <div class="nearz-app-button-container">
-               <a href="https://play.google.com/store/apps/details?id=com.dazzleapp"></a>
-               <img class="nearz-header-app-button" src="./images/button.svg" />
+               <img class="nearz-ios" src="./images/ios.png" onclick="iosReidrect()">
+               </img>
             </div>
             <div class="nearz-app-button-container">
-               <a href="https://apps.apple.com/us/app/nearz/id1549902743"></a>
-               <img class="nearz-header-app-button" src="./images/button_ios.svg" />
+               <img class="nearz-android" src="./images/android.png" onclick="androidRedirect()">
+            </img>
             </div>
             <div class="app-features">
                <div class="feature"><div class="bullet"></div><span class="bullet-text">Easy to use</span></div>
@@ -105,7 +112,7 @@
           </div>
         </div>
         <div class="how-nears-label">
-           How Nearz Work
+           How Nearz Works
            <div class="underline"></div>
          </div>
         <div class="app-screenshot-container">
@@ -146,7 +153,7 @@
             <div class="contact_details">
                <a href="tel: +91-9711141223">
                   <img class="app-logo" src="./images/phone.svg" /> 
-                  +91-9711141223
+                  +91-9205823627
                 </a>
             </div>
             <div class="contact_details">
@@ -159,3 +166,12 @@
       </footer>
    </body>
 </html>
+
+<script>
+   function androidRedirect() {
+     window.location.href = "https://play.google.com/store/apps/details?id=com.dazzleapp"
+   }
+   function iosReidrect() {
+     window.location.href = "https://apps.apple.com/us/app/nearz/id1549902743"
+   }
+</script>
