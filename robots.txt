@@ -1,1 +1,4 @@
-Sitemap: http://nearz.in/sitemap_location.xml
+User-agent: *
+Allow: /
+
+Sitemap: https://nearz.in/sitemap.xml
