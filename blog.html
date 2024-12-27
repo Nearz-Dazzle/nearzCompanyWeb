@@ -3987,6 +3987,12 @@
     <link rel="stylesheet" id="sage/main.css-css" href="css/main_53555faf.css" type="text/css" media="all">
     <script type="text/javascript" src="js/jquery.min.js" id="jquery-core-js"></script>
     <script type="text/javascript" src="js/jquery.cookie.js" id="jquery.cookie-js"></script>
+    <script type="text/javascript" id="sage/main.js-js-extra">
+      /* <![CDATA[ */
+      var ajax_object = {};
+      /* ]]> */
+    </script>
+    <script type="text/javascript" src="js/main_53555faf.js" id="sage/main.js-js"></script>
     <!-- <script type="text/javascript" id="wpml-cookie-js-extra">
        /* <![CDATA[ */
        var wpml_cookies = {"wp-wpml_current_language":{"value":"en","expires":1,"path":"\/"}};
@@ -4901,10 +4907,14 @@
        <div class="container flex justify-between items-center text-black">
           <div>
              <div class="menu-utility-menu-ire-container">
-                <ul class="utility-menu flex items-center text-black">
-                   <li id="menu-item-57719" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-57719"><a>Contact Us</a></li>
-                   <li id="menu-item-57582" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-57582"><a href="tel:+919711141223">+91 9711141223</a></li>
-                </ul>
+              <ul class="utility-menu flex items-center text-black">
+                <li id="menu-item-57719" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-57719"><a>Contact Us</a></li>
+                <li id="menu-item-57582" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-57582"><a href="tel:+919711141223">+91 9711141223</a></li>
+                <li id="menu-item-57582" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-57582"><a href="https://x.com/Nearzsalon" target="_blank"><img class="block lg:hidden xl:block" src="images/icons8-twitter.svg" alt="X app" width="25" height="25"></a></li>
+                <li id="menu-item-57582" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-57582"><a href="https://www.facebook.com/profile.php?id=100063966076850" target="_blank"><img class="block lg:hidden xl:block" src="images/icons8-facebook.svg" alt="X app" width="25" height="25"></a></li>
+                <li id="menu-item-57582" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-57582"><a href="https://www.instagram.com/nearz.app" target="_blank"><img class="block lg:hidden xl:block" src="images/icons8-instagram.svg" alt="X app" width="25" height="25"></a></li>
+                <li id="menu-item-57582" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-57582"><a href="https://in.pinterest.com/nearzaws/" target="_blank"><img class="block lg:hidden xl:block" src="images/icons8-pinterest.svg" alt="X app" width="25" height="25"></a></li>
+             </ul>
              </div>
           </div>
           <div class="flex justify-between items-center">
@@ -4916,6 +4926,12 @@
           <a href="index.html"><img class="block lg:hidden xl:block" src="images/nearz_logo.jpg" alt="Nearz Salon Software" width="50" height="50" style="margin-top: 10px;"></a>
           <a href="index.html"><img class="hidden lg:block xl:hidden" src="images/nearz_logo.jpg" alt="Nearz Salon Software" width="50" height="50"></a>
           </a>
+          <div class="nav-primary-trigger hamburger relative md:hidden">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
           <nav role="navigation" class="nav-primary bg-white hidden fixed top-0 left-0 w-full h-screen md:static md:block md:w-auto md:h-auto md:flex-shrink-0 ">
              <div class="menu-top-bar bg-white">
                 <a class="logo block md:hidden  w-1/2" style="transform: translate(-1rem, 1rem);">
@@ -4930,6 +4946,162 @@
                 </div>
              </div>
           </nav>
+          <nav role="navigation" class="nav-primary bg-white hidden fixed top-0 left-0 w-full h-screen md:static md:block md:w-auto md:h-auto md:flex-shrink-0 ">
+            <div class="menu-top-bar bg-white">
+               <a class="logo block md:hidden  w-1/2" style="transform: translate(-1rem, 1rem);">
+               <img class="block lg:hidden xl:block" src="images/nearz_logo.jpg" alt="Nearz Salon Software">
+               </a>
+               <div class="flex md:inline flex-wrap items-center">
+                  <!-- <a href="https://www.phorest.com/custom-demo/?request_type=Demo%20request" class="modal-trigger btn-demo-cta button bg-red px-8 text-white hover:bg-red-lighter text-center  w-1/2  lg:w-auto lg:mr-5 rounded-none lg:rounded demo-cta" data-ol-has-click-handler="" style="height: fit-content;">
+                  Book a demo
+                  </a>
+                  <a href="https://www.phorest.com/custom-demo/?request_type=Quote%20request" class="modal-trigger btn-quote-cta button button-secondary text-center white w-auto md:mt-0 w-1/2  quote-cta text-green-dark hover:bg-green-dark border-green-dark hover:text-white " data-ol-has-click-handler="">
+                  Request a quote
+                  </a> -->
+               </div>
+            </div>
+            <div class="menu-container bg-white md:bg-transparent">
+               <ul class="flex items-center flex-col md:flex-row">
+                  <li id="menu-item-102295" class="level-0 nav-icon level-icon-phorestlogo single-drop menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-102295">
+                     <a href="index.html">Why Nearz</a>
+                     <!-- <ul class="sub-menu">
+                        <li id="menu-item-102296" class="level-1 menu-item menu-item-type-post_type menu-item-object-page menu-item-102296"><a href="https://www.phorest.com/about/">About Us</a></li>
+                        <li id="menu-item-102297" class="level-1 menu-item menu-item-type-post_type menu-item-object-page menu-item-102297"><a href="https://www.phorest.com/compare/">Compare</a></li>
+                        <li id="menu-item-136431" class="level-1 menu-item menu-item-type-post_type menu-item-object-page menu-item-136431"><a href="https://www.phorest.com/revenue-calculator/">Calculate Revenue Boost</a></li>
+                        <li id="menu-item-102298" class="level-1 menu-item menu-item-type-post_type menu-item-object-page menu-item-102298"><a href="https://www.phorest.com/faqs/">FAQs</a></li>
+                        <li id="menu-item-102425" class="level-1 menu-item menu-item-type-post_type menu-item-object-page menu-item-102425"><a href="https://www.phorest.com/partners/">Integrations &amp; Partners</a></li>
+                        <li id="menu-item-102426" class="level-1 menu-item menu-item-type-post_type menu-item-object-page menu-item-102426"><a href="https://www.phorest.com/demo/">Request a demo</a></li>
+                        <li id="menu-item-129063" class="level-1 menu-item menu-item-type-post_type menu-item-object-page menu-item-129063"><a href="https://www.phorest.com/case-study/">Case Studies</a></li>
+                     </ul> -->
+                  </li>
+                  <li id="menu-item-102299" class="level-0 open no-show menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-102299">
+                     <a>Features</a>
+                     <!-- <ul class="sub-menu">
+                        <li id="menu-item-102300" class="level-1 overview text-grey menu-item menu-item-type-post_type menu-item-object-page menu-item-102300"><a href="https://www.phorest.com/features/">Features</a></li>
+                        <li id="menu-item-102301" class="level-1 nav-icon icon-heart menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-102301">
+                           <a>Manage your Clients</a>
+                           <ul class="sub-menu">
+                              <li id="menu-item-102302" class="level-2 menu-item menu-item-type-post_type menu-item-object-page menu-item-102302"><a href="https://www.phorest.com/features/salon-scheduling-software/">Scheduling</a></li>
+                              <li id="menu-item-102427" class="level-2 menu-item menu-item-type-post_type menu-item-object-page menu-item-102427"><a href="https://www.phorest.com/features/online-booking/">Online Booking</a></li>
+                              <li id="menu-item-102303" class="level-2 menu-item menu-item-type-post_type menu-item-object-page menu-item-102303"><a href="https://www.phorest.com/features/salon-crm-software/">Client Management</a></li>
+                              <li id="menu-item-102428" class="level-2 menu-item menu-item-type-post_type menu-item-object-page menu-item-102428"><a href="https://www.phorest.com/features/digital-consultation-forms/">Consultation Forms</a></li>
+                              <li id="menu-item-102304" class="level-2 menu-item menu-item-type-post_type menu-item-object-page menu-item-102304"><a href="https://www.phorest.com/features/automated-sms-email/">Automated SMS &amp; Email</a></li>
+                              <li id="menu-item-102429" class="level-2 menu-item menu-item-type-post_type menu-item-object-page menu-item-102429"><a href="https://www.phorest.com/features/video-consultations/">Video Consultations</a></li>
+                              <li id="menu-item-116682" class="level-2 menu-item menu-item-type-post_type menu-item-object-page menu-item-116682"><a href="https://www.phorest.com/features/self-checkin-app/">Self-Check-In App</a></li>
+                           </ul>
+                        </li>
+                        <li id="menu-item-102305" class="level-1 nav-icon icon-speech_bubble menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-102305">
+                           <a>Manage your Salon</a>
+                           <ul class="sub-menu">
+                              <li id="menu-item-102308" class="level-2 menu-item menu-item-type-post_type menu-item-object-page menu-item-102308"><a href="https://www.phorest.com/features/salon-management-app/">Salon Management App</a></li>
+                              <li id="menu-item-102306" class="level-2 menu-item menu-item-type-post_type menu-item-object-page menu-item-102306"><a href="https://www.phorest.com/features/salon-rostering-software/">Staff Management</a></li>
+                              <li id="menu-item-102307" class="level-2 menu-item menu-item-type-post_type menu-item-object-page menu-item-102307"><a href="https://www.phorest.com/features/salon-pos-software/">POS Software</a></li>
+                              <li id="menu-item-102310" class="level-2 menu-item menu-item-type-post_type menu-item-object-page menu-item-102310"><a href="https://www.phorest.com/features/salon-inventory-software/">Stock &amp; Inventory</a></li>
+                              <li id="menu-item-102309" class="level-2 menu-item menu-item-type-post_type menu-item-object-page menu-item-102309"><a href="https://www.phorest.com/features/salon-accounting-software/">Reporting</a></li>
+                           </ul>
+                        </li>
+                        <li id="menu-item-102311" class="level-1 nav-icon icon-monitor menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-102311">
+                           <a>Market your Salon</a>
+                           <ul class="sub-menu">
+                              <li id="menu-item-102312" class="level-2 menu-item menu-item-type-post_type menu-item-object-page menu-item-102312"><a href="https://www.phorest.com/features/salon-marketing-software/">Marketing Suite</a></li>
+                              <li id="menu-item-128811" class="level-2 menu-item menu-item-type-post_type menu-item-object-page menu-item-128811"><a href="https://www.phorest.com/features/ads-manager/">Nearz Ads Manager</a></li>
+                              <li id="menu-item-128812" class="level-2 menu-item menu-item-type-post_type menu-item-object-page menu-item-128812"><a href="https://www.phorest.com/features/expert-recommendations/">Expert Recommendations</a></li>
+                              <li id="menu-item-102313" class="level-2 menu-item menu-item-type-post_type menu-item-object-page menu-item-102313"><a href="https://www.phorest.com/features/salon-booking-app/">Appointment Booking App</a></li>
+                              <li id="menu-item-102314" class="level-2 menu-item menu-item-type-post_type menu-item-object-page menu-item-102314"><a href="https://www.phorest.com/features/salon-reputation-management/">Get 5* Reviews</a></li>
+                              <li id="menu-item-102315" class="level-2 menu-item menu-item-type-post_type menu-item-object-page menu-item-102315"><a href="https://www.phorest.com/features/salon-loyalty-program-software/">Loyalty Program</a></li>
+                           </ul>
+                        </li>
+                        <li id="menu-item-114983" class="level-1 nav-icon icon-product menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-114983">
+                           <a>PhorestPay</a>
+                           <ul class="sub-menu">
+                              <li id="menu-item-104580" class="level-2 menu-item menu-item-type-post_type menu-item-object-page menu-item-104580"><a href="https://www.phorest.com/features/salon-payment-processing/">Payment Processing</a></li>
+                              <li id="menu-item-102430" class="level-2 menu-item menu-item-type-post_type menu-item-object-page menu-item-102430"><a href="https://www.phorest.com/features/online-store/">Online Store</a></li>
+                              <li id="menu-item-102431" class="level-2 menu-item menu-item-type-post_type menu-item-object-page menu-item-102431"><a href="https://www.phorest.com/features/online-gift-vouchers/">Online Gift Vouchers</a></li>
+                              <li id="menu-item-140762" class="level-2 menu-item menu-item-type-post_type menu-item-object-page menu-item-140762"><a href="https://www.phorest.com/features/cashless-tipping/">Cashless Tipping</a></li>
+                           </ul>
+                        </li>
+                     </ul> -->
+                  </li>
+                  <li id="menu-item-114976" class="level-0 open no-show menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-114976">
+                     <a>Upcoming</a>
+                     <!-- <ul class="sub-menu">
+                        <li id="menu-item-114977" class="level-1 overview text-grey menu-item menu-item-type-custom menu-item-object-custom menu-item-114977"><a>Solutions</a></li>
+                        <li id="menu-item-102316" class="level-1 nav-icon icon-heart menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-102316">
+                           <a>For your industry</a>
+                           <ul class="sub-menu">
+                              <li id="menu-item-102321" class="level-2 menu-item menu-item-type-post_type menu-item-object-page menu-item-102321"><a href="https://www.phorest.com/industry/multi-location/">Multi-Location</a></li>
+                              <li id="menu-item-102319" class="level-2 menu-item menu-item-type-post_type menu-item-object-page menu-item-102319"><a href="https://www.phorest.com/industry/beauty-salon-software/">Beauty Salon</a></li>
+                              <li id="menu-item-102320" class="level-2 menu-item menu-item-type-post_type menu-item-object-page menu-item-102320"><a href="https://www.phorest.com/industry/hair-salon-software/">Hair Salon</a></li>
+                              <li id="menu-item-102322" class="level-2 menu-item menu-item-type-post_type menu-item-object-page menu-item-102322"><a href="https://www.phorest.com/industry/nail-salon-software/">Nail Salon</a></li>
+                              <li id="menu-item-102432" class="level-2 menu-item menu-item-type-post_type menu-item-object-page menu-item-102432"><a href="https://www.phorest.com/industry/spa-software/">Spa</a></li>
+                              <li id="menu-item-102317" class="level-2 menu-item menu-item-type-post_type menu-item-object-page menu-item-102317"><a href="https://www.phorest.com/industry/aesthetics/">Medi-Aesthetic Clinic</a></li>
+                              <li id="menu-item-102318" class="level-2 menu-item menu-item-type-post_type menu-item-object-page menu-item-102318"><a href="https://www.phorest.com/industry/barber-shop-software/">Barbershop</a></li>
+                           </ul>
+                        </li>
+                        <li id="menu-item-114978" class="level-1 nav-icon icon-person menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-114978">
+                           <a>For you</a>
+                           <ul class="sub-menu">
+                              <li id="menu-item-121835" class="level-2 menu-item menu-item-type-post_type menu-item-object-page menu-item-121835"><a href="https://www.phorest.com/users/ceo-multi-site-manager/">CEO/Multi-Site Manager</a></li>
+                              <li id="menu-item-114979" class="level-2 menu-item menu-item-type-post_type menu-item-object-page menu-item-114979"><a href="https://www.phorest.com/users/salon-owners/">Owner</a></li>
+                              <li id="menu-item-114980" class="level-2 menu-item menu-item-type-post_type menu-item-object-page menu-item-114980"><a href="https://www.phorest.com/users/managers/">Manager</a></li>
+                              <li id="menu-item-114981" class="level-2 menu-item menu-item-type-post_type menu-item-object-page menu-item-114981"><a href="https://www.phorest.com/users/front-of-house/">Front of House</a></li>
+                              <li id="menu-item-114982" class="level-2 menu-item menu-item-type-post_type menu-item-object-page menu-item-114982"><a href="https://www.phorest.com/users/therapists-and-stylists/">Stylists &amp; Therapists</a></li>
+                           </ul>
+                        </li>
+                        <li id="menu-item-114984" class="level-1 nav-icon icon-reporting menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-114984">
+                           <a>Benefits</a>
+                           <ul class="sub-menu">
+                              <li id="menu-item-114985" class="level-2 menu-item menu-item-type-post_type menu-item-object-page menu-item-114985"><a href="https://www.phorest.com/benefits/generate-new-revenue-streams/">Make More Money</a></li>
+                              <li id="menu-item-114986" class="level-2 menu-item menu-item-type-post_type menu-item-object-page menu-item-114986"><a href="https://www.phorest.com/benefits/attract-new-clients/">Attract New Clients</a></li>
+                              <li id="menu-item-114987" class="level-2 menu-item menu-item-type-post_type menu-item-object-page menu-item-114987"><a href="https://www.phorest.com/benefits/retain-clients/">Retain Loyal Clients</a></li>
+                              <li id="menu-item-114988" class="level-2 menu-item menu-item-type-post_type menu-item-object-page menu-item-114988"><a href="https://www.phorest.com/benefits/increase-clients-average-spend/">Increase Clients’ Spending</a></li>
+                              <li id="menu-item-114989" class="level-2 menu-item menu-item-type-post_type menu-item-object-page menu-item-114989"><a href="https://www.phorest.com/benefits/motivate-attract-retain-great-teams/">Lead Great Teams</a></li>
+                              <li id="menu-item-114990" class="level-2 menu-item menu-item-type-post_type menu-item-object-page menu-item-114990"><a href="https://www.phorest.com/benefits/claim-back-time/">Save Time</a></li>
+                              <li id="menu-item-114991" class="level-2 menu-item menu-item-type-post_type menu-item-object-page menu-item-114991"><a href="https://www.phorest.com/benefits/business-planning-growth/">Grow Your Business</a></li>
+                           </ul>
+                        </li>
+                     </ul> -->
+                  </li>
+                  <li id="menu-item-102323" class="level-0 nav-icon level-icon-folder menu-item menu-item-type-post_type menu-item-object-page menu-item-102323"><a>Partners</a></li>
+                  <li id="menu-item-102324" class="level-0 open no-show single-drop menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-102324">
+                     <a>Testimonials</a>
+                     <!-- <ul class="sub-menu">
+                        <li id="menu-item-102325" class="level-1 overview border-t-2 border-dashed pt-4 text-grey menu-item menu-item-type-custom menu-item-object-custom menu-item-102325"><a>Learn</a></li>
+                        <li id="menu-item-102413" class="level-1 menu-item menu-item-type-post_type menu-item-object-page menu-item-102413"><a href="https://www.phorest.com/blog/">Blog</a></li>
+                        <li id="menu-item-102416" class="level-1 menu-item menu-item-type-post_type_archive menu-item-object-podcast menu-item-102416"><a href="https://www.phorest.com/fm/">Podcast</a></li>
+                        <li id="menu-item-102418" class="level-1 menu-item menu-item-type-post_type_archive menu-item-object-guides menu-item-102418"><a href="https://www.phorest.com/resources/">Guides &amp; Tools</a></li>
+                        <li id="menu-item-102422" class="level-1 menu-item menu-item-type-post_type_archive menu-item-object-videos menu-item-102422"><a href="https://www.phorest.com/videos/">Videos</a></li>
+                        <li id="menu-item-102417" class="level-1 menu-item menu-item-type-post_type_archive menu-item-object-event menu-item-102417"><a href="https://www.phorest.com/events/">Events</a></li>
+                        <li id="menu-item-124596" class="level-1 menu-item menu-item-type-custom menu-item-object-custom menu-item-124596"><a href="https://www.salonownersummit.com/">Salon Owners Summit</a></li>
+                     </ul> -->
+                  </li>
+                  <li id="menu-item-114974" class="level-0 open no-show single-drop menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-114974">
+                     <a>For Salons</a>
+                     <!-- <ul class="sub-menu">
+                        <li id="menu-item-102420" class="level-1 overview text-grey menu-item menu-item-type-custom menu-item-object-custom menu-item-102420"><a>For Clients</a></li>
+                        <li id="menu-item-102423" class="level-1 menu-item menu-item-type-post_type menu-item-object-page menu-item-102423"><a href="https://www.phorest.com/support/">Support</a></li>
+                        <li id="menu-item-114973" class="level-1 menu-item menu-item-type-custom menu-item-object-custom menu-item-114973"><a href="https://support.phorest.com/hc/en-us">Help Guides</a></li>
+                        <li id="menu-item-127868" class="level-1 menu-item menu-item-type-post_type menu-item-object-page menu-item-127868"><a href="https://www.phorest.com/training-education/">Training &amp; Education</a></li>
+                        <li id="menu-item-115151" class="level-1 menu-item menu-item-type-post_type menu-item-object-page menu-item-115151"><a href="https://www.phorest.com/downloads/">Downloads</a></li>
+                        <li id="menu-item-115152" class="level-1 menu-item menu-item-type-custom menu-item-object-custom menu-item-115152"><a href="https://www.phorest.com/updates/">Updates</a></li>
+                        <li id="menu-item-117608" class="level-1 menu-item menu-item-type-post_type menu-item-object-page menu-item-117608"><a href="https://www.phorest.com/salon-referral/">Refer a Salon</a></li>
+                     </ul> -->
+                  </li>
+                  <li id="menu-item-114974" class="level-0 open no-show single-drop menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-114974">
+                     <a href="./blog.html">Blogs</a>
+                     <!-- <ul class="sub-menu">
+                        <li id="menu-item-102420" class="level-1 overview text-grey menu-item menu-item-type-custom menu-item-object-custom menu-item-102420"><a>For Clients</a></li>
+                        <li id="menu-item-102423" class="level-1 menu-item menu-item-type-post_type menu-item-object-page menu-item-102423"><a href="https://www.phorest.com/support/">Support</a></li>
+                        <li id="menu-item-114973" class="level-1 menu-item menu-item-type-custom menu-item-object-custom menu-item-114973"><a href="https://support.phorest.com/hc/en-us">Help Guides</a></li>
+                        <li id="menu-item-127868" class="level-1 menu-item menu-item-type-post_type menu-item-object-page menu-item-127868"><a href="https://www.phorest.com/training-education/">Training &amp; Education</a></li>
+                        <li id="menu-item-115151" class="level-1 menu-item menu-item-type-post_type menu-item-object-page menu-item-115151"><a href="https://www.phorest.com/downloads/">Downloads</a></li>
+                        <li id="menu-item-115152" class="level-1 menu-item menu-item-type-custom menu-item-object-custom menu-item-115152"><a href="https://www.phorest.com/updates/">Updates</a></li>
+                        <li id="menu-item-117608" class="level-1 menu-item menu-item-type-post_type menu-item-object-page menu-item-117608"><a href="https://www.phorest.com/salon-referral/">Refer a Salon</a></li>
+                     </ul> -->
+                  </li>
+               </ul>
+            </div>
+         </nav>
           <div class="header-cta hidden fixed w-full left-0 top-0 lg:flex lg:static lg:w-auto lg:flex-shrink-0 opacity-100 m-auto mr-0">
              <!-- <a href="https://www.phorest.com/custom-demo/?request_type=Demo%20request" class="modal-trigger md:flex-none btn-demo-cta button bg-red px-8 text-white hover:bg-red-lighter w-full lg:w-auto lg:mr-5 rounded-none lg:rounded demo-cta block text-center" data-ol-has-click-handler="">
              Book a demo
@@ -4944,7 +5116,7 @@
     <div role="document">
       <div class="content">
         <main class="main">
-          <div class="container relative z-10 flex flex-wrap">
+          <div class="container relative z-10 pt-10 flex flex-wrap">
             <div class="w-full">
               <h2 class="section-title text-green">
                 Learn to run, manage and grow your salon to new heights
