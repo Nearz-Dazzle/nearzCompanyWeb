@@ -706,7 +706,7 @@
                            </ul> -->
                         </li>
                         <li id="menu-item-102299" class="level-0 open no-show menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-102299">
-                           <a>Features</a>
+                           <a onclick="if(document.querySelector('.hamburger').classList.contains('open')){document.querySelector('.nav-primary-trigger').click()};hi()"  href="#features">Features</a>
                            <!-- <ul class="sub-menu">
                               <li id="menu-item-102300" class="level-1 overview text-grey menu-item menu-item-type-post_type menu-item-object-page menu-item-102300"><a href="https://www.phorest.com/features/">Features</a></li>
                               <li id="menu-item-102301" class="level-1 nav-icon icon-heart menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-102301">
@@ -754,7 +754,7 @@
                            </ul> -->
                         </li>
                         <li id="menu-item-114976" class="level-0 open no-show menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-114976">
-                           <a>Upcoming</a>
+                           <a onclick="if(document.querySelector('.hamburger').classList.contains('open')){document.querySelector('.nav-primary-trigger').click()};hi()" href="#upcoming">Upcoming</a>
                            <!-- <ul class="sub-menu">
                               <li id="menu-item-114977" class="level-1 overview text-grey menu-item menu-item-type-custom menu-item-object-custom menu-item-114977"><a>Solutions</a></li>
                               <li id="menu-item-102316" class="level-1 nav-icon icon-heart menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-102316">
@@ -793,9 +793,9 @@
                               </li>
                            </ul> -->
                         </li>
-                        <li id="menu-item-102323" class="level-0 nav-icon level-icon-folder menu-item menu-item-type-post_type menu-item-object-page menu-item-102323"><a>Partners</a></li>
+                        <li id="menu-item-102323" class="level-0 nav-icon level-icon-folder menu-item menu-item-type-post_type menu-item-object-page menu-item-102323"><a onclick="if(document.querySelector('.hamburger').classList.contains('open')){document.querySelector('.nav-primary-trigger').click()};hi()" href="#partners">Partners</a></li>
                         <li id="menu-item-102324" class="level-0 open no-show single-drop menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-102324">
-                           <a>Testimonials</a>
+                           <a onclick="if(document.querySelector('.hamburger').classList.contains('open')){document.querySelector('.nav-primary-trigger').click()};hi()" href="#testimonials">Testimonials</a>
                            <!-- <ul class="sub-menu">
                               <li id="menu-item-102325" class="level-1 overview border-t-2 border-dashed pt-4 text-grey menu-item menu-item-type-custom menu-item-object-custom menu-item-102325"><a>Learn</a></li>
                               <li id="menu-item-102413" class="level-1 menu-item menu-item-type-post_type menu-item-object-page menu-item-102413"><a href="https://www.phorest.com/blog/">Blog</a></li>
@@ -806,8 +806,8 @@
                               <li id="menu-item-124596" class="level-1 menu-item menu-item-type-custom menu-item-object-custom menu-item-124596"><a href="https://www.salonownersummit.com/">Salon Owners Summit</a></li>
                            </ul> -->
                         </li>
-                        <li id="menu-item-114974" class="level-0 open no-show single-drop menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-114974">
-                           <a>For Salons</a>
+                        <li onclick="document.querySelector('.nav-primary-trigger').click();hi()" id="menu-item-114974" class="level-0 open no-show single-drop menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-114974">
+                           <a onclick="if(document.querySelector('.hamburger').classList.contains('open')){document.querySelector('.nav-primary-trigger').click()};hi()" href="#for_salon">For Salons</a>
                            <!-- <ul class="sub-menu">
                               <li id="menu-item-102420" class="level-1 overview text-grey menu-item menu-item-type-custom menu-item-object-custom menu-item-102420"><a>For Clients</a></li>
                               <li id="menu-item-102423" class="level-1 menu-item menu-item-type-post_type menu-item-object-page menu-item-102423"><a href="https://www.phorest.com/support/">Support</a></li>
@@ -818,8 +818,8 @@
                               <li id="menu-item-117608" class="level-1 menu-item menu-item-type-post_type menu-item-object-page menu-item-117608"><a href="https://www.phorest.com/salon-referral/">Refer a Salon</a></li>
                            </ul> -->
                         </li>
-                        <li onclick="function hi(){window.open('./blog.html')};hi()" id="menu-item-114974" class="level-0 open no-show single-drop menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-114974">
-                           <a href="./blog.html">Blogs</a>
+                        <li onclick="function hi(){window.open('./blog.html', '_self')};hi()" id="menu-item-114974" class="level-0 open no-show single-drop menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-114974">
+                           <a>Blogs</a>
                            <!-- <ul class="sub-menu">
                               <li id="menu-item-102420" class="level-1 overview text-grey menu-item menu-item-type-custom menu-item-object-custom menu-item-102420"><a>For Clients</a></li>
                               <li id="menu-item-102423" class="level-1 menu-item menu-item-type-post_type menu-item-object-page menu-item-102423"><a href="https://www.phorest.com/support/">Support</a></li>
@@ -917,7 +917,7 @@
                                  <img data-inviewport="scale-in" src="images/sqiggle-bg.png" alt="sqiggle-bg" class="lazy mt-56 -ml-56 hidden md:block">
                               </picture>
                            </div>
-                           <div class="w-full md:w-1/2 pb-56 md:pb-40">
+                           <div id="features" class="w-full md:w-1/2 pb-56 md:pb-40">
                               <h2 class="w-full md:w-3/4 text-green font-normal blotch-underline"><span>Say</span> <span>hello</span> <span>to</span> <span>salon</span> <span>life</span> <span>with</span> <span>Nearz</span></h2>
                               <ul class="correct-list">
                                  <li><span data-inviewport="scale-in"></span>See exclusive offers of salons near by you</li>
@@ -936,7 +936,7 @@
                   </div>
                </section>
                <div class="">
-                  <div data-inviewport="bg-in" data-revcalcbanner="true" class="w-full p-6 bg-center text-grey-light lg:py-8  pt-12 pb-0 md:py-16 lg:flex items-start  justify-center">
+                  <div id="upcoming" data-inviewport="bg-in" data-revcalcbanner="true" class="w-full p-6 bg-center text-grey-light lg:py-8  pt-12 pb-0 md:py-16 lg:flex items-start  justify-center">
                      <div class=" container relative z-10 md:max-w-xl text-center m-auto">
                         <span class="text-white bg-green-light font-bold rounded-xl uppercase px-8 py-2">Create your looks</span>    
                         <h2 class="mt-12 text-green-dark">Try virtual looks with Nearz AI based engine</h2>
@@ -947,7 +947,7 @@
                      </div>
                   </div>
                </div>
-               <section class="mb-0 pt-20 bg-green-dark">
+               <section class="mb-0 pt-20 bg-green-dark" id="partners">
                   <div class="overflow-hidden">
                      <h2 class="font-normal max-w-full mb-12 section-title text-3xl text-white text-xl w-full">Over <span class="text-red-light">100+</span> salons onboared last month and counting</h2>
                      <div class="logo-carousel">
@@ -992,7 +992,7 @@
                      </div>
                   </div>
                </section>
-               <section class="relative mt-0 mb-6">
+               <section class="relative mt-0 mb-6" id="testimonials">
                   <div id="slider-v3-container" class="overflow-hidden">
                      <div id="slider-v3" class="slider-v3 " data-inviewport="crawl-in">
                         <div class="slides-v3  carousel slider-testimonials">
@@ -1237,7 +1237,7 @@
             </main>
          </div>
       </div>
-      <section class="relative mb-0">
+      <section class="relative mb-0" id="for_salon">
          <div id="ratings" class="relative md:pb-12 overflow-x-hidden ">
             <div class="bg-green-dark pt-12 pb-20 md:pb-8 md:mb-16 md:rounded-b-full">
                <div class="container ">
